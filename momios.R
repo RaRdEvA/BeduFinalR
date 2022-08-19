@@ -189,8 +189,7 @@ boxplot(wrh, wra, col = c("#FE8A68","#FD6A3E"), horizontal = TRUE, names = c("wr
 t.test(
   wrh,
   wra,
-  paired = FALSE,
-  alternative = "greater")
+  paired = TRUE)
 
 
 
